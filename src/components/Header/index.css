@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.header-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.popup-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.listit {
+    list-style: none;
+}
+
+.link-ins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.box-field {
+    height: 356px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    .box-field {
+        height: 350px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+}

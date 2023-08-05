@@ -1,0 +1,28 @@
+.home-img-desk {
+    height: 650px;
+    width: 1000px;
+}
+
+.home-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-img-mob {
+    height: 450px;
+    width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-img-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-img-desk {
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.notfd {
+    height: 500px;
+    width: 1000px;
+}
+
+.nt-fd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
